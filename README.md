@@ -21,3 +21,6 @@ or
 - Attach to a detached session:
 `$tmux attach -t <session_name>`
 
+- Kill a tetached session
+`$tmux kill-session -t <session_name>`
+
