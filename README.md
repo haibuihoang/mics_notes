@@ -1,6 +1,21 @@
-# mics_notes
-Misclaneous notes
+# Linux tips and tricks
 
+## Table of content
+
+[Toc]
+
+
+
+
+
+## NERDTree
+
+Installation https://github.com/preservim/nerdtree
+
+Usage:
+
+* Move between windows: `Ctrl` + `w` then `w`
+* 
 
 ## Practical tmux
 Similar to `screen`, but more userfriendly, great to work in bash interactive mode, exit (detach), then return to it later (attach).
@@ -23,4 +38,25 @@ or
 
 - Kill a tetached session
 `$tmux kill-session -t <session_name>`
+
+## LaTeX stuffs
+
+### Styled block quotes
+
+```latex
+\usepackage[strict]{changepage}
+\usepackage{framed}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{
+   \def\FrameCommand{
+       {\color{lightgray}\vrule width 4pt}
+       \color{gray}
+   }
+   \MakeFramed{}  
+}
+\AtEndEnvironment{quote}{\endMakeFramed}
+```
+
+
+
 
