@@ -4,18 +4,17 @@
 
 [Toc]
 
-
-
-
-
 ## NERDTree
 
 Installation https://github.com/preservim/nerdtree
+Start NERDTree `:NERDTree`
+Window navigation:
 
-Usage:
-
-* Move between windows: `Ctrl` + `w` then `w`
-* 
+*  <kbd>Ctrl</kbd>+ <kbd>w</kbd><kbd>w</kbd> cycle though all windows
+*  <kbd>Ctrl</kbd>+ <kbd>w</kbd><kbd>h</kbd> takes you left a window
+*  <kbd>Ctrl</kbd>+ <kbd>w</kbd><kbd>j</kbd> takes you down a window
+*  <kbd>Ctrl</kbd>+ <kbd>w</kbd><kbd>k</kbd> takes you up a window
+*  <kbd>Ctrl</kbd>+ <kbd>w</kbd><kbd>l</kbd> takes you right a window
 
 ## Practical tmux
 Similar to `screen`, but more userfriendly, great to work in bash interactive mode, exit (detach), then return to it later (attach).
